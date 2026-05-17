@@ -69,7 +69,7 @@ The agent can chain multiple actions in one go. You don't tell it *how* — it f
 ## How It's Built
 
 ```
-main.py          →  API routes (FastAPI)
+├── main.py          →  API routes (FastAPI)
 ├── intelligence.py  →  extracts structured data from queries (LLM layer)
 ├── agent.py         →  decides what to do, calls tools, replies (reasoning layer)
 ├── store.py         →  saves and retrieves query records (data layer)
