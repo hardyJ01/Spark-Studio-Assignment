@@ -107,7 +107,6 @@ If one provider is unavailable or unconfigured, it silently moves to the next. T
 ```bash
 # Clone and install
 git clone https://github.com/yourname/query-intelligence
-cd query-intelligence
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
@@ -155,3 +154,6 @@ If I were scaling this service for production use, I would focus on observabilit
 ---
 
 *Built with FastAPI · Anthropic SDK · Groq · Gemini · Pydantic v2*
+Author 
+Hardipsinh Jadeja
+
